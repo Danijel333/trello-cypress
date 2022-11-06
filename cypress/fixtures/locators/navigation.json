@@ -1,0 +1,6 @@
+{
+    "navigationLogInButton": "svg[data-name='Layer 1']",
+    "signUpAnchor": "a[data-cy='signUpHere']",
+    "goToLoginAnchor": "a[data-cy='goToLogin']",
+    "closeModal": "div[class='LoginModule_exit'] > svg[class='Cancel']"
+}

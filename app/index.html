@@ -357,11 +357,11 @@
               <input type="email" placeholder="Email address" id="loginEmail" v-model="loginEmail" autocomplete="off">
               <input type="password" placeholder="Password" id="loginPassword" v-model="loginPassword" v-on:keyup.enter="login">
               <div class="LoginModule_buttons">
-                <button class="Button" @click="login">
+                <button class="Button" @click="login" data-cy="modalLogInButton">
                   Log in</button>
               </div>
             </div>
-            <p class="LoginModule_logSignSwitch">Don’t have an account? <a @click="logSignSwitch">Sign up here</a></p>
+            <p class="LoginModule_logSignSwitch">Don’t have an account? <a @click="logSignSwitch" data-cy="signUpHere">Sign up here</a></p>
         </div>
         <div v-show="signupCardActive">
           <h2 class="LoginModule_title">Sign up to create a free account</h2>
@@ -376,11 +376,11 @@
                 </label>
               </div>
               <div class="LoginModule_buttons">
-                <button class="Button" @click="signup">
+                <button class="Button" @click="signup" data-cy="signUpButton">
                   Sign up</button>
               </div>
             </div>
-            <p class="LoginModule_logSignSwitch">Already have an account? <a @click="logSignSwitch">Go to log in</a></p>
+            <p class="LoginModule_logSignSwitch">Already have an account? <a @click="logSignSwitch" data-cy="goToLogin">Go to log in</a></p>
         </div>
       </div>
   </div>
