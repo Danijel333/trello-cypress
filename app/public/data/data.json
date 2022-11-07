@@ -1,6 +1,63 @@
 {
-  "boards": [],
-  "tasks": [],
-  "users": [],
-  "lists": []
+  "boards": [
+    {
+      "name": "",
+      "user": 0,
+      "id": 83180606360,
+      "starred": false,
+      "created": "2022-11-07"
+    },
+    {
+      "name": "New Board",
+      "user": 0,
+      "id": 55844461182,
+      "starred": false,
+      "created": "2022-11-07"
+    }
+  ],
+  "tasks": [
+    {
+      "boardId": 55844461182,
+      "description": "",
+      "completed": false,
+      "listId": 24598740870,
+      "title": "new task",
+      "id": 31482041188,
+      "created": "2022-11-07",
+      "deadline": "2022-11-10"
+    }
+  ],
+  "users": [
+    {
+      "email": "dan.janjic@gmail.com",
+      "password": "$2a$10$HCwvb.e1US02OS7ShYGV2u97XoqS8T8KrOmoM75leDvwZD8HQSn3a",
+      "id": 1
+    }
+  ],
+  "lists": [
+    {
+      "boardId": 83180606360,
+      "title": "some list",
+      "id": 13021089228,
+      "created": "2022-11-07"
+    },
+    {
+      "boardId": 55844461182,
+      "title": "list 1",
+      "id": 24598740870,
+      "created": "2022-11-07"
+    },
+    {
+      "boardId": 55844461182,
+      "title": "list2",
+      "id": 86716413053,
+      "created": "2022-11-07"
+    },
+    {
+      "boardId": 55844461182,
+      "title": "asas",
+      "id": 946859243,
+      "created": "2022-11-07"
+    }
+  ]
 }

@@ -159,8 +159,8 @@
         <div class="dropdown" @click="boardDropdown = !boardDropdown">
           <svg class="options" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,7a2,2,0,1,0-2-2A2,2,0,0,0,12,7Zm0,10a2,2,0,1,0,2,2A2,2,0,0,0,12,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"/></svg>
           <div id="myDropdown" class="dropdown-content" v-show="boardDropdown">
-            <span class="delete" @click.self="deleteBoard(currentBoard)">Delete board</span>
-            <span @click.self="copyProperties(currentBoard)">Copy properties</span>
+            <span class="delete" @click.self="deleteBoard(currentBoard)" data-cy="deleteBoard">Delete board</span>
+            <span @click.self="copyProperties(currentBoard)" data-cy="copyBoardProperties">Copy properties</span>
           </div>
         </div>
         <div
@@ -320,7 +320,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="#5aac44"/></svg>
         {{ this.$root.loggedIn.email }}
         <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }">
-          <span @click="logout()">Log out</span>
+          <span @click="logout()" data-cy="logOutButton">Log out</span>
         </div>
       </div>
       <div

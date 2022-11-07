@@ -1,0 +1,23 @@
+{
+    "newBoard": "div[id='new-board']",
+    "boardTitle": "div[id='new-board'] input",
+    "saveBoardButton": "div[class='board_options'] button",
+    "cancelBoardCreation": "div[class='board_options'] svg",
+    "selectBoard": "div[class='board'] div[class='board_item']",
+    "addBoardToStaredd": "div[class='board'] svg[class='Star']",
+    "boardDropMenu": "div[class='boardDetail_info'] div[class='dropdown']",
+    "deleteBoard": "data-cy='deleteBoard'",
+    "copyBoardProperties": "data-cy='copyBoardProperties'",
+    "addNewList": "div[class='CreateList']",
+    "listTitle": "div[class='CreateList CreateList-active'] input[class='CreateList_input']",
+    "saveListButton": "div[class='CreateList_options'] button",
+    "cancelListCreation": "div[class='CreateList_options'] svg",
+    "listDropMenu": "div[class='ListContainer'] div[class='dropdown']",
+    "deleteList": "div[class='CreateList_options'] button[class='Button']",
+    "copyBoardProperties": "div[class='CreateList_options'] svg",
+    "addNewTask": "h5[class='List_addTask']",
+    "taskName": "data-id='newTaskTitle'",
+    "addTaskButton": "div[class='List_newTaskOptions'] button[class='Button']",
+    "cancelTaskCreation": "div[class='List_newTaskOptions'] svg",
+    "taskCheckbox": "div[class='List_tasks'] input[type='checkbox']"
+}

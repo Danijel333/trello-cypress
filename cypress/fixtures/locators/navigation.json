@@ -1,6 +1,9 @@
 {
-    "navigationLogInButton": "svg[data-name='Layer 1']",
-    "signUpAnchor": "a[data-cy='signUpHere']",
-    "goToLoginAnchor": "a[data-cy='goToLogin']",
-    "closeModal": "div[class='LoginModule_exit'] > svg[class='Cancel']"
+    "navigationLogInButton": "data-name='Layer 1'",
+    "signUpAnchor": "data-cy='signUpHere'",
+    "goToLoginAnchor": "data-cy='goToLogin'",
+    "closeModal": "div[class='LoginModule_exit'] > svg[class='Cancel']",
+    "userProfile": "[class='background background-blue'] circle",
+    "logOutButton": "data-cy='logOutButton'",
+    "myBoards": "nav[class='Nav'] div[class='Nav_boards Nav_button router-link-active']"
 }

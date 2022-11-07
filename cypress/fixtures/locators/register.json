@@ -2,5 +2,5 @@
     "registerEmailInput": "input[id='signupEmail']",
     "registerPasswordInput": "input[id='signupPassword']",
     "registerModalCheckbox": "input[type='checkbox']",
-    "signUpButton": "button[data-cy='signUpButton']"
+    "signUpButton": "data-cy='signUpButton'"
 }

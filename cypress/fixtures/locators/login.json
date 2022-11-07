@@ -1,5 +1,5 @@
 {
     "loginEmailInput": "input[id='loginEmail']",
     "loginPasswordInput": "input[id='loginPassword']",
-    "loginModalLogInButton": "button[data-cy='modalLogInButton']"
+    "loginModalLogInButton": "data-cy='modalLogInButton'"
 }
